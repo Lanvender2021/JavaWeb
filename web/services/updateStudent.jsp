@@ -1,7 +1,5 @@
 <%@ page import="util.StudentUtil" %>
-<%@ page import="entity.Student" %><%--
-  Date: 2022/5/1
---%>
+<%@ page import="entity.Student" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>

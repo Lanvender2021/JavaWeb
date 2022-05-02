@@ -41,34 +41,6 @@ public class JDBCUtil {
         return DriverManager.getConnection(url, user, password);
     }
 
-    public static void close(Statement statement, Connection conn) {
-        if (statement != null) {
-            try {
-                statement.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-        if (conn != null) {
-            try {
-                conn.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-
-    }
-
-    public static void close(Statement statement, Connection conn, ResultSet rs) {
-        close(statement, conn);
-        if (rs != null) {
-            try {
-                rs.close();
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-    }
 
     //一个带参数的信息提示框，供找错使用
     public static void message(String msg) {

@@ -1,8 +1,5 @@
 <%@ page import="util.JDBCUtil" %>
 <%@ page import="entity.Student" %>
-<%@ page import="java.util.ArrayList" %>
-<%@ page import="java.sql.PreparedStatement" import="java.sql.Connection" import="java.sql.ResultSet"%>
-<%@ page import="java.sql.SQLException" %>
 <%@ page import="util.StudentUtil" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
